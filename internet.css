@@ -31,18 +31,17 @@
 	bottom: 20px;
 	font-size: 20px;
 }
-#side{
-	width: 200px;
-	display: inline-block
+#top{
+	border-bottom: 1px solid black;
 }
 #sidepanel{
 	display: inline-block;
 	width: 200px;
-	height: 200px;
 	background: linear-gradient(#E5E5E5, white, white);
 	font-weight: bold;
 	padding: 10px 0px 10px 3px;
 	border-bottom: 1px solid #9A9A9A;
+	width: 200px;
 }
 #sidepanel h4{
 	font-size: 18px;
@@ -92,10 +91,9 @@
 }
 #contentheader{
 	display: inline-block;
-	width: 745px;
+	width: 743px;
 	background: linear-gradient(#E5E5E5, white, white);
 	vertical-align: top;
-	height: 60px;
 	padding: 10px;
 	border-bottom: 1px solid #B3B3B3;
 }
@@ -130,28 +128,43 @@
 }
 #content{
 	display: inline-block;
-	width: 745px;
-	background: linear-gradient(#E5E5E5, white);
-	border: 1px solid red;
+	width: 743px;
+	background: linear-gradient(#E5E5E5, white, white);
+	vertical-align: top;
+	border-top: 1px solid grey;
+}
+#content span{
+	color: #0097AF;
+}
+#content ul{
+	padding: 0px 30px 20px 30px;
 }
 #client{
 	height: 100px;
-	width: 100px;
+	width: 250px;
+	margin: 0px 200px;
+}
+#content ol{
+	padding: 0px 30px 20px 30px;
 }
 #bottom{
 	vertical-align: top;
-	width: 745px;
-}
-#bottom2{
+	width: 500px;
 	display: inline-block;
-	width: 750px;
+	margin: 10px;
+}
+#bottom span{
+	color: #0097AF;
 }
 #html{
 	height: 100px;
 	width: 100px;
+	margin: 10px;
 }
-#bottom2{
-	display: inline-block;
+#border{
+	border-left: 4px solid blue;
+	border-top: 4px solid blue;
+	border-right: 4px solid blue;
 }
 button{
 	padding: 5px 15px;
@@ -160,4 +173,8 @@ button{
 	border-radius: 5px;
 	border: none;
 	box-shadow: 2px 2px 4px black;
+}
+h4{
+	color: #22649E;
+	font-size: ;
 }
