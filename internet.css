@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/*outline: 1px solid yellow;*/
+}
+#container{
+	width: 970px;
+}
+#header{
+	height: 115px;
+}
+#internet{
+	width: 70%;
+	display: inline-block;
+	position: relative;
+	bottom: 20px;
+}
+#world{
+	background: linear-gradient(#2768A0, #4A7EAA, #2768A0);
+	color: white;
+	width: 100%;
+	z-index: 1;
+	display: inline-block;
+	position: relative;
+	bottom: 20px;
+}
+#side{
+	width: 200px;
+	display: inline-block
+}
+#sidepanel{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(#E5E5E5, white);
+	font-weight: bold;
+	padding: 10px 0px 10px 3px;
+	border-bottom: 1px solid #9A9A9A;
+}
+#sidepanel h4{
+	font-size: 18px;
+}
+#sidepanel h4 span{
+	color: red;
+}
+#sidepanel p{
+	margin: 20px 0px;
+}
+#bluebutton{
+	background-color: #4783B4;
+	margin-bottom: 5px;
+}
+#orangebutton{
+	background-color: orange;
+	margin-bottom: 30px;
+}
+#adbackground{
+	width: 100%;
+	height: 100%;
+}
+#advertisement{
+	margin-top: 30px;
+	background-image: url("ad_background.png");
+	text-align: center;
+	height: 300px;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: 2px 2px 4px black;
+}
+#advertisement span{
+	font-size: 7px;
+}
+#ninja{
+	width: 50%;
+	height: 50%;
+	vertical-align: middle;
+	margin: 20px 0px;
+}
+#learnmore{
+	background-color: #00C2DF;
+}
+#content{
+	display: inline-block;
+	width: 700px;
+	height: 530px;
+	vertical-align: top;
+	background: linear-gradient(#E5E5E5, white);
+	padding: 10px;
+}
+#junk{
+	display: inline-block;
+}
+#bottom{
+	vertical-align: top;
+}
+#bottom2{
+	display: inline-block;
+	width: 750px;
+}
+#globe{
+	height: 100px;
+	width: 100px;
+	z-index: 2;
+	position: relative;
+}
+button{
+	padding: 5px 15px;
+	color: white;
+	width: 95%;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 2px 2px 4px black;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
