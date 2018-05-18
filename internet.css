@@ -9,6 +9,12 @@
 #header{
 	height: 115px;
 }
+#globe{
+	height: 100px;
+	width: 100px;
+	z-index: 2;
+	position: relative;
+}
 #internet{
 	width: 70%;
 	display: inline-block;
@@ -23,6 +29,7 @@
 	display: inline-block;
 	position: relative;
 	bottom: 20px;
+	font-size: 20px;
 }
 #side{
 	width: 200px;
@@ -32,7 +39,7 @@
 	display: inline-block;
 	width: 200px;
 	height: 200px;
-	background: linear-gradient(#E5E5E5, white);
+	background: linear-gradient(#E5E5E5, white, white);
 	font-weight: bold;
 	padding: 10px 0px 10px 3px;
 	border-bottom: 1px solid #9A9A9A;
@@ -42,6 +49,9 @@
 }
 #sidepanel h4 span{
 	color: red;
+}
+#sidepanel span{
+	color: #4379A5;
 }
 #sidepanel p{
 	margin: 20px 0px;
@@ -75,35 +85,73 @@
 #ninja{
 	width: 50%;
 	height: 50%;
-	vertical-align: middle;
 	margin: 20px 0px;
 }
 #learnmore{
 	background-color: #00C2DF;
 }
-#content{
+#contentheader{
 	display: inline-block;
-	width: 700px;
-	height: 530px;
+	width: 745px;
+	background: linear-gradient(#E5E5E5, white, white);
 	vertical-align: top;
-	background: linear-gradient(#E5E5E5, white);
+	height: 60px;
 	padding: 10px;
+	border-bottom: 1px solid #B3B3B3;
+}
+#home{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+#dns{
+	display: inline-block;
+	color: #4379A5;
+	vertical-align: top;
+	height: 100%;
+	width: 62%;
+}
+#phone{
+	height: 40px;
+	width: 40px;
 }
 #junk{
 	display: inline-block;
+	text-align: right;
+}
+#junk p{
+	font-size: 12px;
+}
+#junk span{
+	color: #05BEDD;
+	font-size: 30px;
+	font-weight: bold;
+}
+#content{
+	display: inline-block;
+	width: 745px;
+	background: linear-gradient(#E5E5E5, white);
+	border: 1px solid red;
+}
+#client{
+	height: 100px;
+	width: 100px;
 }
 #bottom{
 	vertical-align: top;
+	width: 745px;
 }
 #bottom2{
 	display: inline-block;
 	width: 750px;
 }
-#globe{
+#html{
 	height: 100px;
 	width: 100px;
-	z-index: 2;
-	position: relative;
+}
+#bottom2{
+	display: inline-block;
 }
 button{
 	padding: 5px 15px;
@@ -112,8 +160,4 @@ button{
 	border-radius: 5px;
 	border: none;
 	box-shadow: 2px 2px 4px black;
-}
-img{
-	width: 100%;
-	height: 100%;
 }
